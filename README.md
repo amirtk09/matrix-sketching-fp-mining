@@ -43,8 +43,15 @@ By applying low-rank approximation and sketching methods such as **Gaussian Rand
    ```bash
    pip install -r requirements.txt
    ```
+3. **Download the TensorFlow Incremental PCA module (tfpca.py):**
 
-3. **Download the dataset:**
+   ```bash
+   wget https://raw.githubusercontent.com/lukassnoek/tf-incremental-pca/master/tfpca.py
+   ```
+
+   Alternatively, manually download the file from <a href="https://github.com/lukassnoek/tf-incremental-pca">lukassnoek/tf-incremental-pca</a> and place it in the project root directory.
+
+4. **Download the dataset:**
    - Download the [Online Retail Dataset](https://archive.ics.uci.edu/dataset/352/online+retail) from UCI Machine Learning Repository
    - Place the `Online Retail.xlsx` file in the project root directory
 
