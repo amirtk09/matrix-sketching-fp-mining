@@ -95,7 +95,7 @@ pip install -r requirements.txt
 1. **Load** and clean the Online Retail dataset.  
 2. **Build** a binary item–transaction matrix (`InvoiceNo × StockCode`).  
 3. **Split** transactions chronologically into batches.  
-4. **Apply** sketching algorithms (GRP, IPCA, SpFD, SpEmb).  
+4. **Apply** sketching algorithms (GRP, IPCA, SpFD).  
 5. **Evaluate** reconstruction quality:
    - Frobenius norm error
    - Explained variance ratio
