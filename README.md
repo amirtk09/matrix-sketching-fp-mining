@@ -14,7 +14,7 @@
 
 This project investigates how **matrix sketching and monitoring techniques** can accelerate **frequent pattern mining algorithms**, specifically the **FP-Growth** algorithm.  
 
-By applying low-rank approximation and sketching methods such as **Gaussian Random Projection (GRP)**, **Incremental PCA (IPCA)**, and **Sparse Frequent Directions (SpFD)**, we evaluate trade-offs between **runtime**, **memory efficiency**, and **pattern stability** in large-scale transactional data.
+By applying low-rank approximation and sketching methods such as **Gaussian Random Projection (GRP)**, **Incremental PCA (IPCA)**, and **Sparse Frequent Directions (SpFD)**, we evaluate trade-offs bet... 
 
 ---
 
@@ -34,9 +34,9 @@ By applying low-rank approximation and sketching methods such as **Gaussian Rand
 | Technique | Description |
 |------------|-------------|
 | **GRP (Gaussian Random Projection)** | Projects the matrix onto a lower-dimensional random Gaussian subspace. Simple, fast, and effective for large-scale data. |
-| **IPCA (Incremental PCA)** | TensorFlow-based incremental PCA that updates principal components over streaming batches. Useful for memory-constrained settings. |
+| **IPCA (Incremental PCA)** | TensorFlow-based incremental PCA that updates principal components over streaming batches. Useful for memory-constrained settings.<br><br>Reference: <br> [lukassnoek/tf-incremental-pca](https://github.com/lukassnoek/tf-incremental-pca) |
 | **SpEmb (Sparse Embedding)** | Sparse random embedding for efficient linear dimensionality reduction with reduced storage cost. |
-| **SpFD (Sparse Frequent Directions)** | Combines sparse embeddings and the Frequent Directions algorithm for low-rank approximation. Highly efficient and stable.<br><br>Reference: <br> D. Teng and D. Chu, *“A Fast Frequent Directions Algorithm for Low Rank Approximation,”* IEEE TPAMI, vol. 41, no. 6, pp. 1279–1293, June 2019. DOI: [10.1109/TPAMI.2018.2839198](https://doi.org/10.1109/TPAMI.2018.2839198). |
+| **SpFD (Sparse Frequent Directions)** | Combines sparse embeddings and the Frequent Directions algorithm for low-rank approximation. Highly efficient and stable.<br><br>Reference: <br> D. Teng and D... 
 
 ---
 
