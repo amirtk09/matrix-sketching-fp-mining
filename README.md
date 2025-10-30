@@ -14,7 +14,58 @@
 
 This project investigates how **matrix sketching and monitoring techniques** can accelerate **frequent pattern mining algorithms**, specifically the **FP-Growth** algorithm.  
 
-By applying low-rank approximation and sketching methods such as **Gaussian Random Projection (GRP)**, **Incremental PCA (IPCA)**, and **Sparse Frequent Directions (SpFD)**, we evaluate trade-offs bet... 
+By applying low-rank approximation and sketching methods such as **Gaussian Random Projection (GRP)**, **Incremental PCA (IPCA)**, and **Sparse Frequent Directions (SpFD)**, we evaluate trade-offs between reconstruction accuracy, computational efficiency, and robustness.
+
+---
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+
+- **Python 3.8+**
+- **pip** (Python package manager)
+- **Jupyter Notebook** or **JupyterLab**
+
+### Installation Steps
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/amirtk09/matrix-sketching-fp-mining.git
+   cd matrix-sketching-fp-mining
+   ```
+
+2. **Install required dependencies:**
+   ```bash
+   pip install numpy pandas scikit-learn scipy mlxtend tensorflow jupyter
+   ```
+
+   Or if you have a `requirements.txt`:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Download the dataset:**
+   - Download the [Online Retail Dataset](https://archive.ics.uci.edu/dataset/352/online+retail) from UCI Machine Learning Repository
+   - Place the `Online Retail.xlsx` file in the project root directory
+
+4. **Launch Jupyter Notebook:**
+   ```bash
+   jupyter notebook
+   ```
+
+5. **Open and run:**
+   - Navigate to `CDM__1_Final.ipynb`
+   - Run all cells sequentially
+
+### Recommended Environment
+
+For optimal performance, consider using a virtual environment:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
 
 ---
 
@@ -35,8 +86,7 @@ By applying low-rank approximation and sketching methods such as **Gaussian Rand
 |------------|-------------|
 | **GRP (Gaussian Random Projection)** | Projects the matrix onto a lower-dimensional random Gaussian subspace. Simple, fast, and effective for large-scale data. |
 | **IPCA (Incremental PCA)** | TensorFlow-based incremental PCA that updates principal components over streaming batches. Useful for memory-constrained settings.<br><br>Reference: <br> [lukassnoek/tf-incremental-pca](https://github.com/lukassnoek/tf-incremental-pca) |
-| **SpEmb (Sparse Embedding)** | Sparse random embedding for efficient linear dimensionality reduction with reduced storage cost. |
-| **SpFD (Sparse Frequent Directions)** | Combines sparse embeddings and the Frequent Directions algorithm for low-rank approximation. Highly efficient and stable.<br><br>Reference: <br> D. Teng and D. Chu, "A Fast Frequent Directions Algorithm for Low Rank Approximation," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 41, no. 6, pp. 1279-1293, 1 June 2019, doi: 10.1109/TPAMI.2018.2839198
+| **SpFD (Sparse Frequent Directions)** | Combines sparse embeddings and the Frequent Directions algorithm for low-rank approximation. Highly efficient and stable. <br><br>Reference: <br> D. Teng and D. Chu, "A Fast Frequent Directions Algorithm for Low Rank Approximation," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 41, no. 6, pp. 1279-1293, 1 June 2019, doi: 10.1109/TPAMI.2018.2839198|
 
 ---
 
@@ -51,7 +101,7 @@ By applying low-rank approximation and sketching methods such as **Gaussian Rand
    - Explained variance ratio
    - Execution time  
 6. **Run FP-Growth** on both original and sketched matrices to compare mining results.  
-7. **Inject anomalies** and assess each model’s stability and sensitivity.
+7. **Inject anomalies** and assess each model's stability and sensitivity.
 
 ---
 
