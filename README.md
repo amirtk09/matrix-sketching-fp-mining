@@ -59,7 +59,7 @@ By applying low-rank approximation and sketching methods such as **Gaussian Rand
 
 | Metric | Meaning |
 |---------|----------|
-| **Reconstruction Error** | Relative Frobenius norm between original and reconstructed matrices. |
+| **Reconstruction Error** | Frobenius norm between original and reconstructed matrices. |
 | **Explained Variance Ratio** | Percentage of total variance retained by the sketched data. |
 | **Execution Time** | Processing time per cumulative batch. |
 | **Pattern Stability** | Similarity between itemsets found in original vs. reduced matrices. |
