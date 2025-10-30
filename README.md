@@ -36,7 +36,7 @@ By applying low-rank approximation and sketching methods such as **Gaussian Rand
 | **GRP (Gaussian Random Projection)** | Projects the matrix onto a lower-dimensional random Gaussian subspace. Simple, fast, and effective for large-scale data. |
 | **IPCA (Incremental PCA)** | TensorFlow-based incremental PCA that updates principal components over streaming batches. Useful for memory-constrained settings.<br><br>Reference: <br> [lukassnoek/tf-incremental-pca](https://github.com/lukassnoek/tf-incremental-pca) |
 | **SpEmb (Sparse Embedding)** | Sparse random embedding for efficient linear dimensionality reduction with reduced storage cost. |
-| **SpFD (Sparse Frequent Directions)** | Combines sparse embeddings and the Frequent Directions algorithm for low-rank approximation. Highly efficient and stable.<br><br>Reference: <br> D. Teng and D... 
+| **SpFD (Sparse Frequent Directions)** | Combines sparse embeddings and the Frequent Directions algorithm for low-rank approximation. Highly efficient and stable.<br><br>Reference: <br> D. Teng and D. Chu, "A Fast Frequent Directions Algorithm for Low Rank Approximation," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 41, no. 6, pp. 1279-1293, 1 June 2019, doi: 10.1109/TPAMI.2018.2839198
 
 ---
 
