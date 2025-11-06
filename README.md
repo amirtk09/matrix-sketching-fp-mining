@@ -4,9 +4,9 @@
 
 **Notebook:** `CDM__1_Final.ipynb`  
 **Dataset:** [Online Retail Dataset (UCI Machine Learning Repository)](https://archive.ics.uci.edu/dataset/352/online+retail)  
-**Author:** AmirHossein Talebi Koohestani 
-**University:** Amir Kabir University of Technology (Tehran Polytechnic) 
-**Supervisor:** Dr. Mehdi Ghatee 
+**Author:** AmirHossein Talebi Koohestani   
+**University:** Amir Kabir University of Technology (Tehran Polytechnic)   
+**Supervisor:** Dr. Mehdi Ghatee   
 **TA:** Dr. Behnam Yousefimehr
 
 </div>
