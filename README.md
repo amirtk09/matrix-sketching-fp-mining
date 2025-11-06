@@ -119,5 +119,3 @@ pip install -r requirements.txt
 | **Reconstruction Error** | Frobenius norm between original and reconstructed matrices. |
 | **Explained Variance Ratio** | Percentage of total variance retained by the sketched data. |
 | **Execution Time** | Processing time per cumulative batch. |
-| **Pattern Stability** | Similarity between itemsets found in original vs. reduced matrices. |
-| **Detection Ratio** | (Average error on anomalous data) ÷ (Average error on normal data). Indicates robustness. |
